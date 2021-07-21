@@ -1,8 +1,7 @@
 import Body from "./navBar"
 
 
-export default function Questions({results}) {
-    console.log(results)
+export default function Questions() {
     return(
         <div>
             <Body/>

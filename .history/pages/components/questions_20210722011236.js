@@ -1,8 +1,14 @@
 import Body from "./navBar"
 
 
-export default function Questions({results}) {
-    console.log(results)
+export default function Questions() {
+    async function getData(){
+    
+            const response = await fetch("/data", config);
+            const json = await response.json();
+            console.log(json)
+    }
+    getData();
     return(
         <div>
             <Body/>
@@ -20,8 +26,8 @@ const data = await res.json();
 console.log(data);
 
 return{
-    props:{
-        results:data
+    props{
+        result
     }
 }
 }

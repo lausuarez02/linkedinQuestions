@@ -2,6 +2,7 @@
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
+  "proxy"
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,6 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
-    "cors": "^2.8.5",
     "next": "^10.0.0",
     "next-connect": "^0.10.1",
     "react": "17.0.1",
